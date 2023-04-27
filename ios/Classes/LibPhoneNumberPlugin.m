@@ -21,7 +21,7 @@
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
 //   [SwiftLibPhoneNumberPlugin registerWithRegistrar:registrar];
 
-  FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"codeheadlabs.com/libphonenumber"
+  FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"hahalolo.com/libphonenumber"
                                                                 binaryMessenger:[registrar messenger]];
 
     LibPhoneNumberPlugin* instance = [[LibPhoneNumberPlugin alloc] init];
