@@ -40,7 +40,7 @@ class LibPhoneNumberPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
 
     override fun onAttachedToActivity(binding: ActivityPluginBinding) {
         mActivity = WeakReference(binding.activity)
-        methodChannel = MethodChannel(binaryMessenger, "codeheadlabs.com/libphonenumber")
+        methodChannel = MethodChannel(binaryMessenger, "hahalolo.com/libphonenumber")
         methodChannel.setMethodCallHandler(this@LibPhoneNumberPlugin)
     }
 
